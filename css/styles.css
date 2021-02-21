@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* Colors */
+/* Font Size */
+#about {
+  padding: 10rem 0rem 0rem 0rem;
+}
+
+#about .tecnology {
+  margin-left: 5rem;
+}
+
+#about .tecnology h6 {
+  color: #64ffda;
+  font-size: 1.125rem;
+}
+
+#about .tecnology ul {
+  padding-left: 0px;
+}
+
+#about .tecnology ul li {
+  list-style: none;
+  font-size: 1.125rem;
+}
+
+#about li::before {
+  content: "▹";
+  color: #64ffda;
+  margin-right: 5px;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  background-color: #0a192f;
+  color: #8892b0;
+  font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: #ccd6f6;
+  font-size: 5rem;
+  font-weight: 800;
+  margin-left: -5px;
+}
+
+h2 {
+  color: #8892b0;
+  font-size: 4.8rem;
+  font-weight: 800;
+  margin-top: -18px;
+  margin-left: -5px;
+}
+
+h3 {
+  color: #ccd6f6;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+hr {
+  border: 0.5px solid white;
+  margin: 0px 0px 0px 5px;
+  width: 418px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+#hero {
+  margin-top: 155px;
+}
+
+#hero span {
+  color: #64ffda;
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+#hero p {
+  max-width: 32rem;
+}
+
+#hero .btn-contact {
+  color: #64ffda;
+  font-size: 18px;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+}
+
+#hero .fa-github {
+  color: #ccd6f6;
+}
+
+#works {
+  padding: 10rem 0rem 8rem 0rem;
+}
+
+#works .card {
+  background-color: #112240;
+  padding: 1.5rem 1rem 2rem 1rem;
+  --tw-shadow:  4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-radius: 8px;
+}
+
+#works h4 {
+  color: #ccd6f6;
+}
+
+#works p {
+  font-size: 1rem;
+}
+
+#works ul {
+  padding: 0px;
+}
+
+#works ul a {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+
+#works ul a:hover {
+  color: #64ffda;
+}
+
+#works ul li {
+  display: inline;
+  font-size: 18px;
+}
+
+#works .tag {
+  background-color: #8892b0;
+  padding: 0.3rem;
+  color: #0a192f;
+  font-size: 12px;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=styles.css.map */

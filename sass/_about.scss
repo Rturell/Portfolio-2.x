@@ -1,0 +1,34 @@
+#about {
+
+    padding: 10rem 0rem 0rem 0rem;
+
+    .tecnology {
+
+        margin-left: 5rem;
+
+
+        h6 {
+            color: $detailColor;
+            font-size: 1.125rem;
+        }
+
+        ul {
+
+            padding-left: 0px;
+
+            li {
+                list-style: none;
+                font-size: 1.125rem;
+            }
+        }
+
+    }
+
+    li::before {
+        content: "▹";
+        color: $detailColor;
+        margin-right: 5px;
+    }
+
+
+}

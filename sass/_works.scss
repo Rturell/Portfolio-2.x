@@ -1,0 +1,50 @@
+#works {
+    padding: 10rem 0rem 8rem 0rem;
+
+    .card {
+        background-color: #112240;
+        padding: 1.5rem 1rem 2rem 1rem;
+        --tw-shadow:  4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+            var(--tw-ring-shadow, 0 0 #0000),
+            var(--tw-shadow);
+        border-radius: 8px;
+    }
+
+    h4 {
+        color: $primaryColor;
+    }
+
+    p {
+        font-size: $small;
+    }
+
+    ul {
+        padding: 0px;
+
+        a {
+            text-decoration: none;
+            color: $primaryColor;
+        }
+
+        a:hover {
+             color: $detailColor;
+        }
+
+        li {
+            display: inline;
+            font-size: 18px;
+        }
+    }
+
+    .tag {
+        background-color: $secundaryColor;
+        padding: 0.3rem;
+        color: $bgcolor;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+
+
+}
