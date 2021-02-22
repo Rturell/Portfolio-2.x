@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #131820;
   color: #8892b0;
   font-size: 1.25rem;
@@ -41,7 +41,7 @@ h3 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 hr {
@@ -64,6 +64,9 @@ hr {
 }
 
 @media (min-width: 320px) {
+  #hero {
+    padding-top: 100px;
+  }
   #hero h1 {
     font-size: 4rem;
   }
@@ -103,7 +106,7 @@ hr {
   }
   #about hr {
     margin: 0px 0px 0px 0px;
-    width: 75%;
+    width: 70%;
   }
   #contact p {
     max-width: 35rem;
@@ -113,6 +116,9 @@ hr {
 @media (min-width: 1200px) {
   .container {
     max-width: 1000px;
+  }
+  #hero {
+    padding-top: 125px;
   }
 }
 
@@ -126,7 +132,7 @@ hr {
 
 .navbar .primary_btn {
   color: #64ffda;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 4px;
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -136,19 +142,8 @@ hr {
   color: #131820;
 }
 
-.navbar-nav {
-  text-align: right;
-  color: red;
-}
-
-@media (min-width: 320px) {
-  .navbar-nav {
-    text-align: left;
-  }
-}
-
-#hero {
-  padding-top: 145px;
+.navbar .nav-link {
+  font-size: 15px;
 }
 
 #hero span {

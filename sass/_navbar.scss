@@ -8,7 +8,7 @@
 
     .primary_btn {
         color: $detailColor;
-        font-size: 18px;
+        font-size: 15px;
         border-radius: 4px;
         padding: 0.5rem 1rem 0.5rem 1rem;
     }
@@ -18,17 +18,9 @@
         color: $bgcolor;
     }
 
-
-}
-
-.navbar-nav {
-    text-align: right;
-    color: red;
-}
-
-@media (min-width: 320px) {
-
-    .navbar-nav {
-        text-align: left;
+    .nav-link {
+        font-size: 15px;
     }
+
+
 }

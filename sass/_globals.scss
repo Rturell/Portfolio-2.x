@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: $bgcolor;
     color: $secundaryColor;
     font-size: 1.25rem;
@@ -70,6 +70,8 @@ hr {
 
     #hero {
 
+        padding-top: 100px;
+
         h1 {
             font-size: 4rem;
         }
@@ -134,7 +136,7 @@ hr {
         hr {
 
             margin: 0px 0px 0px 0px;
-            width: 75%;
+            width: 70%;
 
 
         }
@@ -151,8 +153,13 @@ hr {
 
 
 @media (min-width: 1200px) {
+
     .container {
         max-width: 1000px;
+    }
+
+    #hero {
+        padding-top: 125px;
     }
 
 }
