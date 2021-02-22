@@ -1,25 +1,12 @@
 #hero {
 
-    margin-top: 135px;
+    padding-top: 130px;
 
 
     span {
         color: $detailColor;
         font-size: 1rem;
         letter-spacing: 4px;
-    }
-
-    p {
-        max-width: 35rem;
-    }
-
-  
-    .btn-contact {
-        color: $detailColor;
-        font-size: 18px;
-        border: 1px solid $detailColor;
-        border-radius: 4px;
-        padding: 0.8rem 2rem 0.8rem 2rem;
     }
 
     .fa-github {

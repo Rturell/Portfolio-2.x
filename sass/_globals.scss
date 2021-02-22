@@ -51,9 +51,99 @@ hr {
 
 }
 
+.primary_btn {
+    color: $detailColor;
+    font-size: 18px;
+    border: 1px solid $detailColor;
+    border-radius: 4px;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+}
+
+.primary_btn:hover {
+    background-color: $detailColor;
+    color: $bgcolor;
+}
+
+
+@media (min-width: 320px) {
+
+    #hero {
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 3rem;
+            margin-top: 0.1rem;
+        }
+
+    }
+
+
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    #hero {
+
+        h1 {
+            font-size: $h1;
+        }
+
+        h2 {
+            font-size: $h2;
+            margin-top: -0.9rem;
+        }
+
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 700px;
+    }
+
+    #hero {
+
+        h1 {
+            font-size: $h1;
+        }
+
+        h2 {
+            font-size: $h2;
+            margin-top: -0.9rem;
+        }
+
+        p {
+            max-width: 35rem;
+        }
+
+    }
+
+    #about {
+
+        max-width: 60%;
+        margin: auto;
+
+    }
+
+    #contact {
+        p {
+            max-width: 35rem;
+        }
+    }
+
+}
+
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1000px;
     }
+
 }
