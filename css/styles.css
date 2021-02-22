@@ -207,6 +207,18 @@ hr {
   background-color: #172030;
 }
 
+#works .card:hover h4 {
+  color: #64ffda;
+}
+
+#works .card:hover p {
+  color: white;
+}
+
+#works .card:hover .card-footer li {
+  background-color: white;
+}
+
 #works h4 {
   color: #ccd6f6;
 }

@@ -18,6 +18,26 @@
 
     }
 
+    .card:hover {
+
+        h4 {
+            color: $detailColor;
+        }
+
+        p {
+            color: white;
+        }
+
+        .card-footer {
+
+            li {
+                background-color: white;
+            }
+        }
+
+
+    }
+
     h4 {
         color: $primaryColor;
     }
