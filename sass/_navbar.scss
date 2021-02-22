@@ -6,6 +6,19 @@
     var(--tw-ring-shadow, 0 0 #0000),
     var(--tw-shadow);
 
+    .primary_btn {
+        color: $detailColor;
+        font-size: 1.25rem;
+        border-radius: 4px;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+
+    .primary_btn:hover {
+        background-color: $detailColor;
+        color: $bgcolor;
+    }
+
+
 }
 
 .navbar-nav {
