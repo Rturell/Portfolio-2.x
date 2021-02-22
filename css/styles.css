@@ -118,7 +118,7 @@ hr {
     max-width: 1000px;
   }
   #hero {
-    padding-top: 125px;
+    padding-top: 145px;
   }
 }
 
@@ -240,5 +240,9 @@ hr {
 #contact {
   padding: 8rem 0rem 2rem 0rem;
   text-align: center;
+}
+
+#contact span {
+  font-size: 13px;
 }
 /*# sourceMappingURL=styles.css.map */
