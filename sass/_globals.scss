@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-    color: $primaryColor;
+
     font-size: $h3;
 
 }
@@ -128,21 +128,7 @@ hr {
 
     }
 
-    #about {
-
-        max-width: 60%;
-        margin: auto;
-
-        hr {
-
-            margin: 0px 0px 0px 0px;
-            width: 70%;
-
-
-        }
-
-    }
-
+    
     #contact {
         p {
             max-width: 35rem;
@@ -159,7 +145,7 @@ hr {
     }
 
     #hero {
-        padding-top: 145px;
+        padding-top: 120px;
     }
 
     #works {

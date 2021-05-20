@@ -1,12 +1,14 @@
 #hero {
 
-    span {
-        color: $detailColor;
-        font-size: 1rem;
-        letter-spacing: 4px;
-    }
+    background-color: $bgcolor;
+    padding: 8rem 0rem 6rem 0rem;
 
     .fa-github {
+        color: $primaryColor;
+    }
+
+    p {
+        font-size: 16px;
         color: $primaryColor;
     }
 

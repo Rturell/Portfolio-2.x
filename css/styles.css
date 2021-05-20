@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #131820;
+  background-color: black;
   color: #8892b0;
   font-size: 1.25rem;
 }
@@ -22,21 +22,20 @@ h3 {
 
 h1 {
   color: #ccd6f6;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   margin-left: -5px;
 }
 
 h2 {
   color: #8892b0;
-  font-size: 4.8rem;
+  font-size: 4rem;
   font-weight: 800;
   margin-top: -18px;
   margin-left: -5px;
 }
 
 h3 {
-  color: #ccd6f6;
   font-size: 3rem;
 }
 
@@ -60,7 +59,7 @@ hr {
 
 .primary_btn:hover {
   background-color: #64ffda;
-  color: #131820;
+  color: black;
 }
 
 @media (min-width: 320px) {
@@ -78,10 +77,10 @@ hr {
 
 @media (min-width: 768px) {
   #hero h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   #hero h2 {
-    font-size: 4.8rem;
+    font-size: 4rem;
     margin-top: -0.9rem;
   }
 }
@@ -91,22 +90,14 @@ hr {
     max-width: 700px;
   }
   #hero h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   #hero h2 {
-    font-size: 4.8rem;
+    font-size: 4rem;
     margin-top: -0.9rem;
   }
   #hero p {
     max-width: 35rem;
-  }
-  #about {
-    max-width: 60%;
-    margin: auto;
-  }
-  #about hr {
-    margin: 0px 0px 0px 0px;
-    width: 70%;
   }
   #contact p {
     max-width: 35rem;
@@ -118,7 +109,7 @@ hr {
     max-width: 1000px;
   }
   #hero {
-    padding-top: 145px;
+    padding-top: 120px;
   }
   #works hr {
     width: 70%;
@@ -126,7 +117,7 @@ hr {
 }
 
 .navbar {
-  background-color: #131820;
+  background-color: black;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
   -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -142,25 +133,40 @@ hr {
 
 .navbar .primary_btn:hover {
   background-color: #64ffda;
-  color: #131820;
+  color: black;
 }
 
 .navbar .nav-link {
   font-size: 15px;
 }
 
-#hero span {
-  color: #64ffda;
-  font-size: 1rem;
-  letter-spacing: 4px;
+#hero {
+  background-color: black;
+  padding: 8rem 0rem 6rem 0rem;
 }
 
 #hero .fa-github {
   color: #ccd6f6;
 }
 
+#hero p {
+  font-size: 16px;
+  color: #ccd6f6;
+}
+
 #about {
-  padding: 8rem 0rem 0rem 0rem;
+  padding: 6rem 0rem 6rem 0rem;
+  background-color: white;
+  color: #363636;
+}
+
+#about h3 {
+  color: #363636;
+}
+
+#about hr {
+  border: 0.5px solid #363636;
+  margin: 0px 0px 0px 0px;
 }
 
 #about .tecnology h6 {
@@ -175,11 +181,6 @@ hr {
 #about .tecnology ul li {
   list-style: none;
   font-size: 1.125rem;
-}
-
-#about hr {
-  border: 0.5px solid white;
-  margin: 0px 0px 0px 0px;
 }
 
 #about li::before {
@@ -248,7 +249,7 @@ hr {
 #works .tag {
   background-color: #8892b0;
   padding: 0.3rem;
-  color: #131820;
+  color: black;
   font-size: 14px;
   border-radius: 4px;
 }

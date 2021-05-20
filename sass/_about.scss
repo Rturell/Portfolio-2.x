@@ -1,6 +1,20 @@
 #about {
 
-    padding: 8rem 0rem 0rem 0rem;
+    padding: 6rem 0rem 6rem 0rem;
+    background-color: white;
+    color: rgb(54, 54, 54);
+
+    h3 {
+        color: rgb(54, 54, 54);
+    }
+
+    hr {
+        border: 0.5px solid rgb(54, 54, 54);
+        margin: 0px 0px 0px 0px;
+
+    }
+
+
 
     .tecnology {
 
@@ -18,12 +32,6 @@
                 font-size: 1.125rem;
             }
         }
-
-    }
-
-    hr {
-        border: 0.5px solid white;
-        margin: 0px 0px 0px 0px;
 
     }
 
