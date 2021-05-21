@@ -12,8 +12,9 @@
     <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- CSS de Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- FONTAWESOME -->
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
@@ -33,64 +34,29 @@
 
 <body>
 
-    <!-- NavBar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <a href="#"><img src="" alt=""></a>
-            </a>
-            <button id="ChangeToggle" class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarLinks" class="collapse navbar-collapse justify-content-end">
-                <ul class="navbar-nav">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#works">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
-                    </li>
-                    <li>
-                        <a class="btn primary_btn ml-lg-2 d-lg-inline" href="img/resume.pdf"
-                            target="blank">Currículum</a>
-                    </li>
-                    <li class="nav-item d-none d-lg-inline">
-                        <a class="nav-link ml-2" href="index-en.html" data-toggle="tooltip" data-placement="bottom"
-                            title="English"><i class="fas fa-globe-americas"></i></a>
-                    </li>
-                    <li class="nav-item d-lg-none">
-                        <a class="nav-link ml-0 ml-lg-2" href="index-en.html">English</a>
-                    </li>
-                </ul>
-                <!--/.navbar-nav -->
-            </div>
-            <!--/.navbar-collapse -->
-        </div>
-    </nav>
-
     <!-- Sección Principal -->
 
     <div id="hero">
 
-        <div class="container">
+        <div class="container-xl">
 
             <div class="row align-items-md-start">
-                <div class="col-9">
-                    <h1 class="w-75">Hola, soy Rodrigo Turell.</h1>
-                    <h2 class="w-75">Desarrollador Front End.</h2>
-                    <p class="my-4 w-50">Además de estudiar comunicación, redacción creativa y dirección de arte, egresé
-                        como "Full Stack Developer" de la
-                        escuela de programación de Montevideo, Hack Academy.</p>
+                <div class="col-7">
+                    <h1>Hola, soy <br> Rodrigo Turell.</h1>
+                    <h2>Desarrollador <br> Front End.</h2>
+                    <p class="mt-4 w-75">Egresé como "Full Stack Developer" de la escuela de programación de Montevideo,
+                        Hack Academy. Además, soy Lic en Comunicación, estudié redacción creativa y dirección de arte.
+                    </p>
+
+                    <a class="me-4" href=""><b>MÁS SOBRE MÍ</b></a>
+                    <a href="#works"><b>PROYECTOS</b></a>
+
                 </div>
-                <div class="col-3">
-                    <p class="text-right mb-5"><i>Siempre me apasionó el diseño, ahora busco darle vida.</i></p>
+                <div class="col-5">
+                    <p class="mt-4 w-50"><i>Siempre me apasionó el diseño, ahora busco darle vida.</i></p>
+
+                    <img class="foto" src="img/Frame 3.png" alt="">
+
                 </div>
             </div>
 
@@ -101,14 +67,14 @@
     <!-- WORKS -->
 
     <div id="works">
-        <div class="container">
+        <div class="container-xl">
 
             <div class="row align-items-center">
                 <div class="col-8">
-                    <h3 class="d-inline-block pl-5">algunos trabajos</h3>
+                    <h3 class="d-inline-block">algunos trabajos</h3>
                 </div>
                 <div class="col-4">
-                    <p class="text-right pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ullam! sit
+                    <p class="text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ullam! sit
                         amet consectetur adipisicing elit.</p>
                 </div>
             </div>
@@ -123,45 +89,16 @@
 
                     <div class="card mt-5 hvr-float">
 
-                        <div class="card-body">
 
+                        <img src="img/CapRed.png" class="card-img-top mb-4" alt="Imagen Home de Capítulo Uruguay">
+                        <h4 class="my-2">Capítulo Uruguay</h4>
+                        <p>Desarrollo a medida de theme para WordPress para el sitio institucional de
+                            Capítulo Red Uruguay. Estuve a cargo de la maquetación y programación del sitio
+                            institucional en WordPress.</p>
+                        </p>
 
-                            <ul class="text-right">
-                                <li>
-                                    <a href="https://www.capreduruguay.com.uy/" target="_blank"><i
-                                            class="fas fa-external-link-alt mr-2"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/Rturell/CapRed" target="_blank"><i
-                                            class="fab fa-github mr-2"></i></a>
-                                </li>
-                            </ul>
+                        <a class="my-3 stretched-link" href="about_me.html" target="blank">Ver proyecto</a>
 
-                            <h4 class="mb-3"><b>Capítulo Uruguay</b></h4>
-
-                            <p>Desarrollo a medida de theme para <span>WordPress</span> para el sitio institucional de
-                                Capítulo Red Uruguay. Estuve a cargo de la maquetación y programación del sitio
-                                institucional en WordPress.</p>
-                            </p>
-
-                        </div>
-
-                        <div class="card-footer">
-
-                            <ul>
-
-                                <li class="tag">Html</li>
-                                <li class="tag">Bootstrap</li>
-                                <li class="tag">CSS</li>
-                                <li class="tag">PHP</li>
-                                <li class="tag">WordPress</li>
-                                <li class="tag">Twig</li>
-                                <li class="tag">Timber</li>
-                                <li class="tag">ACF</li>
-
-                            </ul>
-
-                        </div>
 
                     </div>
 
@@ -173,51 +110,12 @@
 
                     <div class="card mt-5 hvr-float">
 
-                        <div class="card-body">
+                        <img src="img/Idas y Vueltas.jpg" class="card-img-top mb-4" alt="Imagen Home de Idas y Vueltas">
+                        <h4 class="my-2">Idas & Vueltas</h4>
+                        <p>Proyecto de Extensión Udelar/FADU junto a la organización Idas y Vueltas. Estuve a cargo
+                            de la maquetación web y programación del sitio en WordPress.</p>
 
-                            <ul class="text-right">
-                                <li>
-                                    <a href="https://idasyvueltas.org.uy/"><i
-                                            class="fas fa-external-link-alt mr-2"></i></a>
-
-                                </li>
-                                <li>
-                                    <i class="fab fa-github mr-2"></i>
-                                </li>
-                                <li>
-                                    <a href="https://idasyvueltas.netlify.app/" target="_blank"><i
-                                            class="fas fa-cloud"></i></a>
-                                </li>
-                                <li>
-                                    <a href="http://www.fadu.edu.uy/coronavirus/linea-de-trabajo-covid19/migrantes-online/"
-                                        target="_blank"><i class="fas fa-newspaper ml-2"></i></a>
-                                </li>
-                            </ul>
-
-                            <h4 class="mb-4"><b>Idas & Vueltas</b></h4>
-                            <p>Proyecto de Extensión Udelar/FADU junto a la organización Idas y Vueltas. Estuve a cargo
-                                de la maquetación web y programación del sitio en WordPress.</p>
-
-                        </div>
-
-                        <div class="card-footer">
-
-                            <ul>
-                                <li class="tag">Html</li>
-                                <li class="tag">Bootstrap</li>
-                                <li class="tag">CSS</li>
-                                <li class="tag">PHP</li>
-                                <li class="tag">WordPress</li>
-                                <li class="tag">Twig</li>
-                                <li class="tag">Timber</li>
-                                <li class="tag">ACF</li>
-
-                            </ul>
-
-                        </div>
-
-
-
+                        <a class="my-3 stretched-link" href="about_me.html" target="blank">Ver proyecto</a>
 
                     </div>
 
@@ -229,36 +127,30 @@
 
                     <div class="card mt-5 hvr-float">
 
-                        <div class="card-body">
+                        <img src="img/CapRed.png" class="card-img-top mb-4" alt="Imagen Home de Capítulo Uruguay">
+                        <h4 class="mb-4">Black Smoke</h4>
+                        <p>Diseño y desarrollo web de sitio estático para la banda de Hard Rock Uruguaya Black
+                            Smoke.
+                        </p>
 
-                            <ul class="text-right">
-                                <li>
-                                    <a href="https://blacksmoke.com.uy/" target="_blank"><i
-                                            class="fas fa-external-link-alt mr-2"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/Rturell/BlackSmoke" target="_blank"><i
-                                            class="fab fa-github mr-2"></i></a>
-                                </li>
-                            </ul>
+                        <a class="my-3 stretched-link" href="about_me.html" target="blank">Ver proyecto</a>
 
-                            <h4 class="mb-4"><b>Black Smoke</b></h4>
-                            <p>Diseño y desarrollo web de sitio estático para la banda de Hard Rock Uruguaya Black
-                                Smoke.
-                            </p>
+                    </div>
 
-                        </div>
+                </div>
 
-                        <div class="card-footer">
+                <!-- Mauricio Turell -->
 
-                            <ul>
-                                <li class="tag">Html</li>
-                                <li class="tag">CSS</li>
-                                <li class="tag">Bootstrap</li>
-                                <li class="tag">JavaScript</li>
-                            </ul>
+                <div class="col-12 col-sm-6 d-flex align-items-stretch">
 
-                        </div>
+                    <div class="card mt-5 hvr-float">
+
+                        <img src="img/Idas y Vueltas.jpg" class="card-img-top mb-4" alt="Imagen Home de Idas y Vueltas">
+                        <h4 class="my-2">Mauricio Turell</h4>
+                        <p>Proyecto de Extensión Udelar/FADU junto a la organización Idas y Vueltas. Estuve a cargo
+                            de la maquetación web y programación del sitio en WordPress.</p>
+
+                        <a class="my-3 stretched-link" href="about_me.html" target="blank">Ver proyecto</a>
 
                     </div>
 
@@ -274,15 +166,13 @@
 
     <div id="contact">
 
-        <div class="container">
+        <div class="container-xl">
 
-            <h3 class="mb-3"><b>Contacto</b></h3>
-            <p class="m-auto mt-5">Siempre estoy abierto a nuevas oportunidades. ¿Qué tenés en mente? ¡Escribime y
+            <h3 class="mb-3"><b>¿Trabajamos juntos?</b></h3>
+            <p>Siempre estoy abierto a nuevas oportunidades. ¿Qué tenés en mente? ¡Escribime y
                 hablamos!</p>
 
-            <a class="btn primary_btn mt-4 mb-5" href="mailto:rodrigoturell@gmail.com">rodrigoturell@gmail.com</a>
-
-            <span class="mt-5 text-center d-block">Diseño & Desarrollo: Rodrigo Turell</span>
+            <a class="btn primary_btn mt-3" href="mailto:rodrigoturell@gmail.com">rodrigoturell@gmail.com</a>
 
         </div>
 
@@ -293,17 +183,11 @@
 
     <!-- SCRIPTS -->
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- JS de Popper.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
 
     <!-- JS de Bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
 
     <!-- JS de Vue.js -->

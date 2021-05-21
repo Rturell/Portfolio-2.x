@@ -1,10 +1,9 @@
 #works {
-    padding: 8rem 0rem 4rem 0rem;
-    background-color: #EFEFEF;
+    padding: 10rem 0rem 8rem 0rem;
+    background-color: white;
 
     .card {
-        text-align: center;
-        background-color: white;
+        background-color: transparent;
         color: #000000;
         border: 0px;
         --tw-shadow: 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -23,15 +22,19 @@
         }
 
         a {
-            text-decoration: none;
+            color: #000000;
+            font-size: 16px;
         }
-
 
     }
 
     .card:hover {
 
         h4 {
+            color: $detailColor;
+        }
+
+        a {
             color: $detailColor;
         }
     }
@@ -56,7 +59,7 @@
 
         a {
             text-decoration: none;
-            color: $primaryColor;
+            color: $detailColor;
         }
 
         a:hover {
@@ -99,6 +102,19 @@
     .hvr-float:active {
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
+    }
+
+    .hvr-sweep-to-right {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        -webkit-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
     }
 
 

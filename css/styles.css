@@ -22,14 +22,14 @@ h3 {
 
 h1 {
   color: #ccd6f6;
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 800;
   margin-left: -5px;
 }
 
 h2 {
   color: #8892b0;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 800;
   margin-top: -18px;
   margin-left: -5px;
@@ -37,6 +37,10 @@ h2 {
 
 h3 {
   font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 p {
@@ -77,10 +81,10 @@ hr {
 
 @media (min-width: 768px) {
   #hero h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
   #hero h2 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-top: -0.9rem;
   }
 }
@@ -90,10 +94,10 @@ hr {
     max-width: 700px;
   }
   #hero h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
   #hero h2 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-top: -0.9rem;
   }
   #hero p {
@@ -142,7 +146,7 @@ hr {
 
 #hero {
   background-color: black;
-  padding: 8rem 0rem 6rem 0rem;
+  padding: 5rem 0rem 5rem 0rem;
 }
 
 #hero .fa-github {
@@ -151,7 +155,26 @@ hr {
 
 #hero p {
   font-size: 16px;
+  margin-bottom: 0.5rem;
   color: #ccd6f6;
+}
+
+#hero a {
+  font-size: 16px;
+  color: #EE5433;
+  text-decoration: none;
+}
+
+#hero .foto {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 180px;
+  right: 25px;
+  --shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--shadow);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--shadow);
 }
 
 #about {
@@ -194,14 +217,13 @@ hr {
 }
 
 #works {
-  padding: 8rem 0rem 4rem 0rem;
-  background-color: #EFEFEF;
+  padding: 10rem 0rem 8rem 0rem;
+  background-color: white;
   /* Animaciones */
 }
 
 #works .card {
-  text-align: center;
-  background-color: white;
+  background-color: transparent;
   color: #000000;
   border: 0px;
   --tw-shadow: 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -220,10 +242,15 @@ hr {
 }
 
 #works .card a {
-  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
 }
 
 #works .card:hover h4 {
+  color: #EE5433;
+}
+
+#works .card:hover a {
   color: #EE5433;
 }
 
@@ -248,7 +275,7 @@ hr {
 
 #works ul a {
   text-decoration: none;
-  color: #ccd6f6;
+  color: #EE5433;
 }
 
 #works ul a:hover {
@@ -293,12 +320,22 @@ hr {
   transform: translateY(-8px);
 }
 
-#contact {
-  padding: 8rem 0rem 2rem 0rem;
-  text-align: center;
+#works .hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
-#contact span {
-  font-size: 13px;
+#contact {
+  padding: 6rem 0rem 6rem 0rem;
+  color: #ccd6f6;
 }
 /*# sourceMappingURL=styles.css.map */
