@@ -50,15 +50,15 @@ hr {
 }
 
 .primary_btn {
-  color: #64ffda;
+  color: #EE5433;
   font-size: 18px;
-  border: 1px solid #64ffda;
+  border: 1px solid #EE5433;
   border-radius: 4px;
   padding: 0.8rem 2rem 0.8rem 2rem;
 }
 
 .primary_btn:hover {
-  background-color: #64ffda;
+  background-color: #EE5433;
   color: black;
 }
 
@@ -125,14 +125,14 @@ hr {
 }
 
 .navbar .primary_btn {
-  color: #64ffda;
+  color: #EE5433;
   font-size: 15px;
   border-radius: 4px;
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .navbar .primary_btn:hover {
-  background-color: #64ffda;
+  background-color: #EE5433;
   color: black;
 }
 
@@ -156,8 +156,8 @@ hr {
 
 #about {
   padding: 6rem 0rem 6rem 0rem;
-  background-color: white;
-  color: #111111;
+  background-color: #EFEFEF;
+  color: #000000;
 }
 
 #about h3 {
@@ -174,7 +174,7 @@ hr {
 }
 
 #about h6 {
-  color: #64ffda;
+  color: #EE5433;
   font-size: 1.125rem;
 }
 
@@ -189,47 +189,57 @@ hr {
 
 #about li::before {
   content: "▹";
-  color: #64ffda;
+  color: #EE5433;
   margin-right: 5px;
 }
 
 #works {
-  padding: 8rem 0rem 0rem 0rem;
+  padding: 8rem 0rem 4rem 0rem;
+  background-color: #EFEFEF;
   /* Animaciones */
 }
 
 #works .card {
-  background-color: #172030;
+  text-align: center;
+  background-color: white;
+  color: #000000;
+  border: 0px;
   --tw-shadow: 4px 6px -1px rgba(0, 0, 0, 0.1),
             0 2px 4px -1px rgba(0, 0, 0, 0.06);
   -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
           box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  border-radius: 8px;
+}
+
+#works .card p {
+  font-size: 14px;
 }
 
 #works .card .card-footer {
+  background-color: white;
   border: none;
-  background-color: #172030;
+}
+
+#works .card a {
+  text-decoration: none;
 }
 
 #works .card:hover h4 {
-  color: #64ffda;
+  color: #EE5433;
 }
 
-#works .card:hover p {
-  color: white;
-}
-
-#works .card:hover .card-footer li {
-  background-color: white;
+#works h3 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
 }
 
 #works h4 {
-  color: #ccd6f6;
+  color: #000000;
 }
 
 #works p {
-  font-size: 1rem;
+  color: #000000;
+  font-size: 14px;
 }
 
 #works ul {
@@ -242,7 +252,7 @@ hr {
 }
 
 #works ul a:hover {
-  color: #64ffda;
+  color: #EE5433;
 }
 
 #works ul li {

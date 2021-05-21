@@ -1,20 +1,31 @@
 #works {
-    padding: 8rem 0rem 0rem 0rem;
+    padding: 8rem 0rem 4rem 0rem;
+    background-color: #EFEFEF;
 
     .card {
-        background-color: #172030;
+        text-align: center;
+        background-color: white;
+        color: #000000;
+        border: 0px;
         --tw-shadow: 4px 6px -1px rgba(0, 0, 0, 0.1),
             0 2px 4px -1px rgba(0, 0, 0, 0.06);
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
             var(--tw-ring-shadow, 0 0 #0000),
             var(--tw-shadow);
-        border-radius: 8px;
+
+        p {
+            font-size: 14px;
+        }
 
         .card-footer {
+            background-color: white;
             border: none;
-            background-color: #172030;
-
         }
+
+        a {
+            text-decoration: none;
+        }
+
 
     }
 
@@ -23,27 +34,21 @@
         h4 {
             color: $detailColor;
         }
+    }
 
-        p {
-            color: white;
-        }
-
-        .card-footer {
-
-            li {
-                background-color: white;
-            }
-        }
-
-
+    h3 {
+        font-weight: 600;
+        font-size: 40px;
+        color: #000000;
     }
 
     h4 {
-        color: $primaryColor;
+        color: #000000;
     }
 
     p {
-        font-size: $small;
+        color:#000000;
+        font-size: 14px;
     }
 
     ul {
