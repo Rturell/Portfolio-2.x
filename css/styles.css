@@ -157,28 +157,32 @@ hr {
 #about {
   padding: 6rem 0rem 6rem 0rem;
   background-color: white;
-  color: #363636;
+  color: #111111;
 }
 
 #about h3 {
-  color: #363636;
+  color: #111111;
 }
 
 #about hr {
-  border: 0.5px solid #363636;
+  border: 0.5px solid #111111;
   margin: 0px 0px 0px 0px;
 }
 
-#about .tecnology h6 {
+#about p {
+  font-size: 18px;
+}
+
+#about h6 {
   color: #64ffda;
   font-size: 1.125rem;
 }
 
-#about .tecnology ul {
+#about ul {
   padding-left: 0px;
 }
 
-#about .tecnology ul li {
+#about ul li {
   list-style: none;
   font-size: 1.125rem;
 }
