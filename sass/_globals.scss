@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $bgcolor;
+    background-color: white;
     color: $secundaryColor;
     font-size: 1.25rem;
 }
@@ -61,12 +61,12 @@ hr {
     font-size: 18px;
     border: 1px solid $detailColor;
     border-radius: 4px;
-    padding: 0.8rem 2rem 0.8rem 2rem;
+    padding: 0.6rem 2rem 0.6rem 2rem;
 }
 
 .primary_btn:hover {
     background-color: $detailColor;
-    color: $bgcolor;
+    color: black;
 }
 
 

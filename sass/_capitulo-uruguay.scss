@@ -1,0 +1,34 @@
+#capred {
+
+    padding: 4rem 0rem 4rem 0rem;
+    background-color: #EFEFEF;
+    color: black;
+
+
+    p {
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+        color: $lightgrey;
+        line-height: 184.69%;
+
+        a {
+            color: $detailColor;
+            text-decoration: none;
+        }
+
+
+    }
+
+    img {
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .subtitle {
+        font-size: $subtitle;
+        margin-top: 4rem;
+    }
+
+}

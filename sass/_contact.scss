@@ -1,5 +1,27 @@
 #contact {
     padding: 6rem 0rem 6rem 0rem;
-    color: $primaryColor;
+    background-color: black;
+    color: white;
+
+    p {
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+        color: white;
+        line-height: 184.69%;
+        max-width: 80%;
+    }
+
+    h3 {
+        font-size: $h3;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover i {
+        color: $detailColor;
+    }
 
 }
