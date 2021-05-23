@@ -6,8 +6,18 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    color: $secundaryColor;
     font-size: 1.25rem;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: $detailColor;
+}
+
+::selection {
+    color: white;
+    background: $detailColor;
 }
 
 h1,
@@ -42,12 +52,6 @@ h4 {
     font-size: $h4;
 }
 
-
-p {
-
-    font-size: $p;
-
-}
 
 hr {
     border: 0.5px solid white;
@@ -90,7 +94,9 @@ hr {
 
 }
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+}
 
 @media (min-width: 768px) {
 
@@ -124,10 +130,6 @@ hr {
         h2 {
             font-size: $h2;
             margin-top: -0.9rem;
-        }
-
-        p {
-            max-width: 35rem;
         }
 
     }
