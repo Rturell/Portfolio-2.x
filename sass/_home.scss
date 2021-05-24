@@ -14,7 +14,6 @@
     }
 
     h2 {
-        background-color: #d9d9d9;
         background-image: linear-gradient(45deg, #d9d9d9 0%, #a8a8a8 74%);
         background-size: 100%;
         background-repeat: repeat;
@@ -171,71 +170,134 @@
 
 #section_2 {
 
-    padding: 3rem 0rem 8rem 0rem;
+    padding: 3rem 0rem 0rem 0rem;
     background-color: #EFEFEF;
 
     #works {
+
+        background-color: black;
+        color: $primaryColor;
+        padding: 6rem 0rem 4rem 0rem;
+
+        h3 {
+            font-weight: 600;
+            font-size: 40px;
+        }
+
+
         p {
             font-size: 16px;
         }
-    }
 
-    .card {
-        background-color: transparent;
-        padding: 4rem;
-        color: white;
-        border: 0px;
-        --tw-shadow: 4px 6px -1px rgba(0, 0, 0, 0.1),
-            0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-            var(--tw-ring-shadow, 0 0 #0000),
-            var(--tw-shadow);
+        .card {
+            background-color: black;
+            padding: 2rem 0rem 2rem 0rem;
+            color: rgb(160, 160, 160);
+            border-radius: 0px;
 
-        p {
-            font-size: 14px;
-            margin-bottom: 0.5rem;
-            color: black;
-            line-height: 184.69%;
-            max-width: 80%;
+
+            .project_logo_uy {
+                background-image: url(../img/Uy2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(100%);
+
+                height: 100px;
+                margin: auto;
+            }
+
+            .project_logo_iv {
+                background-image: url(../img/IV2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(100%);
+
+                height: 100px;
+                margin: auto;
+            }
+
+            .project_logo_bs {
+                background-image: url(../img/BS2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(100%);
+      
+                height: 100px;
+                margin: auto;
+            }
+
+            .project_logo_lt {
+                background-image: url(../img/MT2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(100%);
+ 
+                height: 100px;
+                margin: auto;
+            }
+
+
+
+            p {
+                color: black;
+                font-size: 14px;
+            }
+
+            a {
+                color: #000000;
+                font-size: 16px;
+            }
+
         }
 
-        .card-footer {
-            background-color: white;
-            border: none;
+        .card:hover {
+
+            p {
+                color: white;
+            }
+
+            .project_logo_uy {
+                background-image: url(../img/Uy2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(0%);
+                height: 100px;
+                margin: auto;
+            }
+
+            .project_logo_iv {
+                background-image: url(../img/IV2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(0%);
+                height: 100px;
+                margin: auto;
+            }
+
+            .project_logo_bs {
+                background-image: url(../img/BS2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(0);
+                height: 100px;
+                margin: auto;
+            }
+
+            .project_logo_lt {
+                background-image: url(../img/MT2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                filter: grayscale(0%);
+                height: 100px;
+                margin: auto;
+            }
+
+
         }
 
-        a {
-            color: #000000;
-            font-size: 16px;
-        }
 
     }
 
-    .card:hover {
-
-        h4 {
-            color: $detailColor;
-        }
-
-        a {
-            color: $detailColor;
-        }
-    }
-
-    h3 {
-        font-weight: 600;
-        font-size: 40px;
-        color: #000000;
-    }
-
-
-    .tag {
-        background-color: $secundaryColor;
-        padding: 0.3rem;
-        color: black;
-        font-size: 14px;
-        border-radius: 4px;
-    }
 
 
     /* Animaciones */
@@ -284,16 +346,14 @@
 /* CONTACT */
 
 #contact {
-    padding: 6rem 0rem 6rem 0rem;
+    padding: 8rem 0rem 8rem 0rem;
     background-color: black;
-    color: white;
+    color: $primaryColor;
 
     p {
         font-size: 16px;
         margin-bottom: 0.5rem;
-        color: white;
         line-height: 184.69%;
-        max-width: 80%;
     }
 
     h3 {
@@ -301,7 +361,7 @@
     }
 
     a {
-        color: white;
+        color: $primaryColor;
         text-decoration: none;
     }
 

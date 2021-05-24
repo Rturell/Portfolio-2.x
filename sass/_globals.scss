@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     font-size: 1.25rem;
+    overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -52,14 +53,6 @@ h4 {
     font-size: $h4;
 }
 
-
-hr {
-    border: 0.5px solid white;
-    margin: 0px 0px 0px 5px;
-    width: 80%;
-
-}
-
 .primary_btn {
     color: $detailColor;
     font-size: 18px;
@@ -94,9 +87,7 @@ hr {
 
 }
 
-@media (min-width: 576px) {
-
-}
+@media (min-width: 576px) {}
 
 @media (min-width: 768px) {
 
@@ -134,13 +125,6 @@ hr {
 
     }
 
-    
-    #contact {
-        p {
-            max-width: 35rem;
-        }
-    }
-
 }
 
 
@@ -152,12 +136,6 @@ hr {
 
     #hero {
         padding-top: 120px;
-    }
-
-    #works {
-        hr {
-            width: 70%;
-        }
     }
 
 }

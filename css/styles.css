@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: black;
   font-size: 1.25rem;
+  overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -51,12 +52,6 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
-}
-
-hr {
-  border: 0.5px solid white;
-  margin: 0px 0px 0px 5px;
-  width: 80%;
 }
 
 .primary_btn {
@@ -106,9 +101,6 @@ hr {
     font-size: 4.5rem;
     margin-top: -0.9rem;
   }
-  #contact p {
-    max-width: 35rem;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -117,9 +109,6 @@ hr {
   }
   #hero {
     padding-top: 120px;
-  }
-  #works hr {
-    width: 70%;
   }
 }
 
@@ -139,7 +128,6 @@ hr {
 }
 
 #hero h2 {
-  background-color: #d9d9d9;
   background-image: linear-gradient(45deg, #d9d9d9 0%, #a8a8a8 74%);
   background-size: 100%;
   background-repeat: repeat;
@@ -276,64 +264,125 @@ hr {
 
 /* SECTION 2 */
 #section_2 {
-  padding: 3rem 0rem 8rem 0rem;
+  padding: 3rem 0rem 0rem 0rem;
   background-color: #EFEFEF;
   /* Animaciones */
+}
+
+#section_2 #works {
+  background-color: black;
+  color: #ccd6f6;
+  padding: 6rem 0rem 4rem 0rem;
+}
+
+#section_2 #works h3 {
+  font-weight: 600;
+  font-size: 40px;
 }
 
 #section_2 #works p {
   font-size: 16px;
 }
 
-#section_2 .card {
-  background-color: transparent;
-  padding: 4rem;
-  color: white;
-  border: 0px;
-  --tw-shadow: 4px 6px -1px rgba(0, 0, 0, 0.1),
-            0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+#section_2 #works .card {
+  background-color: black;
+  padding: 2rem 0rem 2rem 0rem;
+  color: #a0a0a0;
+  border-radius: 0px;
 }
 
-#section_2 .card p {
-  font-size: 14px;
-  margin-bottom: 0.5rem;
+#section_2 #works .card .project_logo_uy {
+  background-image: url(../img/Uy2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  height: 100px;
+  margin: auto;
+}
+
+#section_2 #works .card .project_logo_iv {
+  background-image: url(../img/IV2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  height: 100px;
+  margin: auto;
+}
+
+#section_2 #works .card .project_logo_bs {
+  background-image: url(../img/BS2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  height: 100px;
+  margin: auto;
+}
+
+#section_2 #works .card .project_logo_lt {
+  background-image: url(../img/MT2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  height: 100px;
+  margin: auto;
+}
+
+#section_2 #works .card p {
   color: black;
-  line-height: 184.69%;
-  max-width: 80%;
+  font-size: 14px;
 }
 
-#section_2 .card .card-footer {
-  background-color: white;
-  border: none;
-}
-
-#section_2 .card a {
+#section_2 #works .card a {
   color: #000000;
   font-size: 16px;
 }
 
-#section_2 .card:hover h4 {
-  color: #E52EE5;
+#section_2 #works .card:hover p {
+  color: white;
 }
 
-#section_2 .card:hover a {
-  color: #E52EE5;
+#section_2 #works .card:hover .project_logo_uy {
+  background-image: url(../img/Uy2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  height: 100px;
+  margin: auto;
 }
 
-#section_2 h3 {
-  font-weight: 600;
-  font-size: 40px;
-  color: #000000;
+#section_2 #works .card:hover .project_logo_iv {
+  background-image: url(../img/IV2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  height: 100px;
+  margin: auto;
 }
 
-#section_2 .tag {
-  background-color: #8892b0;
-  padding: 0.3rem;
-  color: black;
-  font-size: 14px;
-  border-radius: 4px;
+#section_2 #works .card:hover .project_logo_bs {
+  background-image: url(../img/BS2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  height: 100px;
+  margin: auto;
+}
+
+#section_2 #works .card:hover .project_logo_lt {
+  background-image: url(../img/MT2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  height: 100px;
+  margin: auto;
 }
 
 #section_2 .hvr-float {
@@ -377,17 +426,15 @@ hr {
 
 /* CONTACT */
 #contact {
-  padding: 6rem 0rem 6rem 0rem;
+  padding: 8rem 0rem 8rem 0rem;
   background-color: black;
-  color: white;
+  color: #ccd6f6;
 }
 
 #contact p {
   font-size: 16px;
   margin-bottom: 0.5rem;
-  color: white;
   line-height: 184.69%;
-  max-width: 80%;
 }
 
 #contact h3 {
@@ -395,7 +442,7 @@ hr {
 }
 
 #contact a {
-  color: white;
+  color: #ccd6f6;
   text-decoration: none;
 }
 
