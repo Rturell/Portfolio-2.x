@@ -10,16 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-::-moz-selection {
-    /* Code for Firefox */
-    color: white;
-    background: $detailColor;
-}
-
-::selection {
-    color: white;
-    background: $detailColor;
-}
 
 h1,
 h2,
@@ -134,8 +124,14 @@ h4 {
         max-width: 1000px;
     }
 
-    #hero {
-        padding-top: 120px;
+    .hero_text {
+
+
+        p {
+            max-width: 75%;
+        }
+
     }
+
 
 }

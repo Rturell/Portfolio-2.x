@@ -1,168 +1,111 @@
+//NavBar//
+
+.navbar-mio {
+    background-color: black;
+    padding: 1rem 0rem 1rem 0rem;
+
+    a {
+        color: $primaryColor;
+    }
+
+    .btn-resume {
+        color: $homeSection;
+        border: $homeSection solid 1px;
+    }
+
+    .btn-resume2 {
+        color: $aboutSection;
+        border: $aboutSection solid 1px;
+    }
+
+
+
+    .btn-resume:hover {
+        background-color: $homeSection;
+        color: black;
+        border: $homeSection solid 1px;
+    }
+
+}
+
+
+//Hero//
+
 #hero {
 
     background-color: black;
-    padding: 5rem 0rem 5rem 0rem;
+    padding: 8rem 0rem 6rem 0rem;
 
-    h1 {
-        font-size: $h1;
-        background-color: pink;
-        background-image: linear-gradient(45deg, #E52EE5, #FF7E44);
-        background-size: 100%;
-        background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    ::-moz-selection {
+        /* Code for Firefox */
+        color: black;
+        background: $homeSection;
     }
 
-    h2 {
-        background-image: linear-gradient(45deg, #d9d9d9 0%, #a8a8a8 74%);
-        background-size: 100%;
-        background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: $detailColor;
-    }
-
-
-    p {
-        font-size: 16px;
-        color: $primaryColor;
-        line-height: 184.69%;
-    }
-
-    .hero_text {
-
-        a {
-            font-size: 16px;
-            color: $detailColor;
-            text-decoration: none;
-        }
-
-        p {
-            font-size: 16px;
-            color: $primaryColor;
-            line-height: 184.69%;
-        }
+    ::selection {
+        color: black;
+        background: $homeSection;
     }
 
 
 }
 
 
-/* SKILLS */
+hr {
+    margin: auto;
+    border: 2px solid #696969;
+    padding: 4rem 0rem 4rem 0rem;
+}
 
-.skills_box {
-    background-color: black;
+
+h1 {
+    font-size: $h1;
+    font-weight: 800;
+    background-image: linear-gradient(45deg, #E52EE5, #FF7E44);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    background-image: linear-gradient(45deg, #d9d9d9 0%, #a8a8a8 74%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $detailColor;
+}
+
+
+p {
+    font-size: 16px;
     color: $primaryColor;
-    padding: 3rem;
-    margin-bottom: 5rem;
-    border-radius: 10px;
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-        0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-        var(--tw-ring-shadow, 0 0 #0000),
-        var(--tw-shadow);
+    line-height: 184.69%;
+}
 
-    h4 {
+.hero_text {
+
+    a {
+        font-size: 16px;
         color: $detailColor;
+        text-decoration: none;
     }
 
     p {
         font-size: 16px;
-        margin-bottom: 0.5rem;
         color: $primaryColor;
         line-height: 184.69%;
-        max-width: 80%;
     }
-
-    ul {
-
-        list-style: none;
-
-        li {
-            font-size: 16px;
-            margin-bottom: 0.5rem;
-            color: $primaryColor;
-            line-height: 184.69%;
-            max-width: 80%;
-        }
-
-        li:hover {
-            color: $detailColor;
-        }
-    }
-
-    .hvr-bounce-in {
-        vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        -webkit-transition-duration: 0.5s;
-        transition-duration: 0.5s;
-    }
-
-    .hvr-bounce-in:hover,
-    .hvr-bounce-in:focus,
-    .hvr-bounce-in:active {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-        transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    }
-
-
-
-    @-webkit-keyframes hvr-pulse-grow {
-        to {
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-        }
-    }
-
-    @keyframes hvr-pulse-grow {
-        to {
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-        }
-    }
-
-    .hvr-pulse-grow {
-        display: inline-block;
-        vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    }
-
-    .hvr-pulse-grow:hover,
-    .hvr-pulse-grow:focus,
-    .hvr-pulse-grow:active {
-        -webkit-animation-name: hvr-pulse-grow;
-        animation-name: hvr-pulse-grow;
-        -webkit-animation-duration: 0.3s;
-        animation-duration: 0.3s;
-        -webkit-animation-timing-function: linear;
-        animation-timing-function: linear;
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;
-    }
-
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔥</text></svg>") 16 0,
-    auto;
-    /*!emojicursor.app*/
-
-
-
 }
 
 
@@ -181,12 +124,13 @@
 
         h3 {
             font-weight: 600;
-            font-size: 40px;
+            font-size: 30px;
+            color: #E52EE5;
         }
 
 
         p {
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .card {
@@ -221,7 +165,7 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 filter: grayscale(100%);
-      
+
                 height: 100px;
                 margin: auto;
             }
@@ -231,7 +175,7 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 filter: grayscale(100%);
- 
+
                 height: 100px;
                 margin: auto;
             }
@@ -347,8 +291,8 @@
 
 #contact {
     padding: 8rem 0rem 8rem 0rem;
-    background-color: black;
-    color: $primaryColor;
+    background-color: #EFEFEF;
+    color: black;
 
     p {
         font-size: 16px;
