@@ -4,6 +4,17 @@
     background-color: black;
     padding: 1rem 0rem 1rem 0rem;
 
+    ::-moz-selection {
+        /* Code for Firefox */
+        color: black;
+        background: $homeSection;
+    }
+
+    ::selection {
+        color: black;
+        background: $homeSection;
+    }
+
     a {
         color: $primaryColor;
     }
@@ -11,6 +22,8 @@
     .btn-resume {
         color: $homeSection;
         border: $homeSection solid 1px;
+        border-radius: 0px;
+        border-radius: 0px;
     }
 
     .btn-resume2 {
@@ -34,7 +47,7 @@
 #hero {
 
     background-color: black;
-    padding: 8rem 0rem 6rem 0rem;
+    padding: 5rem 0rem 6rem 0rem;
 
     ::-moz-selection {
         /* Code for Firefox */
@@ -83,7 +96,7 @@ a {
 }
 
 a:hover {
-    color: $detailColor;
+    color: $homeSection;
 }
 
 
@@ -97,7 +110,7 @@ p {
 
     a {
         font-size: 16px;
-        color: $detailColor;
+        color: $homeSection;
         text-decoration: none;
     }
 
@@ -106,211 +119,4 @@ p {
         color: $primaryColor;
         line-height: 184.69%;
     }
-}
-
-
-/* SECTION 2 */
-
-#section_2 {
-
-    padding: 3rem 0rem 0rem 0rem;
-    background-color: #EFEFEF;
-
-    #works {
-
-        background-color: black;
-        color: $primaryColor;
-        padding: 6rem 0rem 4rem 0rem;
-
-        h3 {
-            font-weight: 600;
-            font-size: 30px;
-            color: #E52EE5;
-        }
-
-
-        p {
-            font-size: 14px;
-        }
-
-        .card {
-            background-color: black;
-            padding: 2rem 0rem 2rem 0rem;
-            color: rgb(160, 160, 160);
-            border-radius: 0px;
-
-
-            .project_logo_uy {
-                background-image: url(../img/Uy2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(100%);
-
-                height: 100px;
-                margin: auto;
-            }
-
-            .project_logo_iv {
-                background-image: url(../img/IV2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(100%);
-
-                height: 100px;
-                margin: auto;
-            }
-
-            .project_logo_bs {
-                background-image: url(../img/BS2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(100%);
-
-                height: 100px;
-                margin: auto;
-            }
-
-            .project_logo_lt {
-                background-image: url(../img/MT2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(100%);
-
-                height: 100px;
-                margin: auto;
-            }
-
-
-
-            p {
-                color: black;
-                font-size: 14px;
-            }
-
-            a {
-                color: #000000;
-                font-size: 16px;
-            }
-
-        }
-
-        .card:hover {
-
-            p {
-                color: white;
-            }
-
-            .project_logo_uy {
-                background-image: url(../img/Uy2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(0%);
-                height: 100px;
-                margin: auto;
-            }
-
-            .project_logo_iv {
-                background-image: url(../img/IV2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(0%);
-                height: 100px;
-                margin: auto;
-            }
-
-            .project_logo_bs {
-                background-image: url(../img/BS2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(0);
-                height: 100px;
-                margin: auto;
-            }
-
-            .project_logo_lt {
-                background-image: url(../img/MT2.svg);
-                background-repeat: no-repeat;
-                background-position: center;
-                filter: grayscale(0%);
-                height: 100px;
-                margin: auto;
-            }
-
-
-        }
-
-
-    }
-
-
-
-    /* Animaciones */
-
-    .hvr-float {
-        display: inline-block;
-        vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-        -webkit-transition-timing-function: ease-out;
-        transition-timing-function: ease-out;
-    }
-
-    .hvr-float:hover,
-    .hvr-float:focus,
-    .hvr-float:active {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-
-    .hvr-sweep-to-right {
-        display: inline-block;
-        vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        position: relative;
-        -webkit-transition-property: color;
-        transition-property: color;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-    }
-
-
-
-}
-
-
-
-
-/* CONTACT */
-
-#contact {
-    padding: 8rem 0rem 8rem 0rem;
-    background-color: #EFEFEF;
-    color: black;
-
-    p {
-        font-size: 16px;
-        margin-bottom: 0.5rem;
-        line-height: 184.69%;
-    }
-
-    h3 {
-        font-size: $h3;
-    }
-
-    a {
-        color: $primaryColor;
-        text-decoration: none;
-    }
-
-    a:hover i {
-        color: $detailColor;
-    }
-
 }

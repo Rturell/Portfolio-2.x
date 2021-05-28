@@ -1,0 +1,21 @@
+#works {
+    padding: 10rem 0rem 12rem 0rem;
+
+    .card {
+        background-color: black;
+
+        img {
+            width: 100%;
+            height: auto;
+            filter: grayscale(100%);
+        }
+    }
+
+    .card:hover {
+        img {
+            filter: grayscale(0%);
+        }
+    }
+
+
+}

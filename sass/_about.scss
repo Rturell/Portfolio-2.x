@@ -1,7 +1,7 @@
 #about {
 
     background-color: black;
-    padding: 12rem 0rem 12rem 0rem;
+    padding: 10rem 0rem 12rem 0rem;
 
     ::-moz-selection {
         /* Code for Firefox */
@@ -62,22 +62,7 @@
 
     .skills_box {
         background-color: black;
-        border: 1px solid $primaryColor;
-        padding: 1.5rem;
-        max-width: 80%;
-        margin: auto;
         color: $primaryColor;
-        margin-bottom: 5rem;
-        border-radius: 10px;
-        --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-            0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-            var(--tw-ring-shadow, 0 0 #0000),
-            var(--tw-shadow);
-
-        h4 {
-            color: $detailColor;
-        }
 
         p {
             font-size: 14px;
@@ -89,17 +74,18 @@
         ul {
 
             list-style: none;
+            padding: 0px;
 
             li {
                 font-size: 16px;
                 margin-bottom: 0.5rem;
                 color: $primaryColor;
-                line-height: 184.69%;
+                line-height: 150%;
                 max-width: 80%;
             }
 
             li:hover {
-                color: $detailColor;
+                color: $homeSection;
             }
         }
 

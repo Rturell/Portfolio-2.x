@@ -1,21 +1,25 @@
 #capred {
 
-    padding: 0rem 0rem 4rem 0rem;
-    background-color: #EFEFEF;
-    color: black;
+    padding: 2rem 0rem 4rem 0rem;
+    color: $primaryColor;
+
+    ::-moz-selection {
+        /* Code for Firefox */
+        color: black;
+        background: $homeSection;
+    }
+
+    ::selection {
+        color: black;
+        background: $homeSection;
+    }
 
 
     p {
         font-size: 16px;
         margin-bottom: 0.5rem;
-        color: $lightgrey;
         line-height: 184.69%;
-
-        a {
-            color: $detailColor;
-            text-decoration: none;
-        }
-
+        color: $primaryColor;
 
     }
 
@@ -26,9 +30,19 @@
 
     }
 
-    .subtitle {
-        font-size: $subtitle;
-        margin-top: 4rem;
+    a {
+        color: $homeSection;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+
+        li {
+            font-size: 16px;
+        }
     }
 
 }

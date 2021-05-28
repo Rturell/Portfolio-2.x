@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     font-size: 1.25rem;
+    margin-top: 55px;
     overflow-x: hidden;
 }
 
@@ -44,15 +45,15 @@ h4 {
 }
 
 .primary_btn {
-    color: $detailColor;
+    color: $homeSection;
     font-size: 18px;
-    border: 1px solid $detailColor;
+    border: 1px solid $homeSection;
     border-radius: 4px;
     padding: 0.6rem 2rem 0.6rem 2rem;
 }
 
 .primary_btn:hover {
-    background-color: $detailColor;
+    background-color: $homeSection;
     color: black;
 }
 
