@@ -39,6 +39,13 @@
         border: $homeSection solid 1px;
     }
 
+
+    .btn-resume2:hover {
+        background-color: $aboutSection;
+        color: black;
+        border: $aboutSection solid 1px;
+    }
+
 }
 
 
@@ -60,6 +67,24 @@
         background: $homeSection;
     }
 
+    h1 {
+        font-size: $h1;
+        font-weight: 800;
+        background-image: linear-gradient(45deg, #E52EE5, #FF7E44);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+        background-image: linear-gradient(45deg, #d9d9d9 0%, #a8a8a8 74%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 
 }
 
@@ -71,23 +96,7 @@ hr {
 }
 
 
-h1 {
-    font-size: $h1;
-    font-weight: 800;
-    background-image: linear-gradient(45deg, #E52EE5, #FF7E44);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-h2 {
-    background-image: linear-gradient(45deg, #d9d9d9 0%, #a8a8a8 74%);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 
 a {
