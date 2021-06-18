@@ -129,6 +129,12 @@ h4 {
   border-radius: 0px;
 }
 
+.navbar-mio .btn-resume:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .navbar-mio .btn-resume2 {
   color: #00e599;
   border: #00e599 solid 1px;
@@ -180,10 +186,10 @@ h4 {
   -webkit-text-fill-color: transparent;
 }
 
-hr {
-  margin: auto;
-  border: 2px solid #696969;
-  padding: 4rem 0rem 4rem 0rem;
+#hero p {
+  font-size: 16px;
+  color: #ccd6f6;
+  line-height: 184.69%;
 }
 
 a {
@@ -193,12 +199,6 @@ a {
 
 a:hover {
   color: #E52EE5;
-}
-
-p {
-  font-size: 16px;
-  color: #ccd6f6;
-  line-height: 184.69%;
 }
 
 .hero_text a {
@@ -259,7 +259,7 @@ p {
 
 #about {
   background-color: black;
-  padding: 10rem 0rem 12rem 0rem;
+  padding: 6rem 0rem 12rem 0rem;
   /* SKILLS */
 }
 
@@ -404,7 +404,7 @@ p {
 }
 
 #works {
-  padding: 10rem 0rem 12rem 0rem;
+  padding: 6rem 0rem 12rem 0rem;
 }
 
 #works ::-moz-selection {
@@ -440,5 +440,17 @@ p {
 #works .card:hover img {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
+}
+
+#works p {
+  font-size: 16px;
+  color: #ccd6f6;
+  line-height: 184.69%;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #ccd6f6;
+  line-height: 184.69%;
 }
 /*# sourceMappingURL=styles.css.map */

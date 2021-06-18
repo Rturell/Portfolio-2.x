@@ -26,6 +26,11 @@
         border-radius: 0px;
     }
 
+    .btn-resume:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
     .btn-resume2 {
         color: $aboutSection;
         border: $aboutSection solid 1px;
@@ -85,18 +90,14 @@
         -webkit-text-fill-color: transparent;
     }
 
+    p {
+        font-size: 16px;
+        color: $primaryColor;
+        line-height: 184.69%;
+    }
+
 
 }
-
-
-hr {
-    margin: auto;
-    border: 2px solid #696969;
-    padding: 4rem 0rem 4rem 0rem;
-}
-
-
-
 
 
 a {
@@ -109,11 +110,7 @@ a:hover {
 }
 
 
-p {
-    font-size: 16px;
-    color: $primaryColor;
-    line-height: 184.69%;
-}
+
 
 .hero_text {
 
