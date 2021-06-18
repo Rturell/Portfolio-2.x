@@ -44,17 +44,43 @@ h4 {
   font-size: 1.5rem;
 }
 
+.green {
+  color: #00e599;
+}
+
+.yellow {
+  color: #ffd333;
+}
+
+.orange {
+  color: #ff7e44;
+}
+
+.violet {
+  color: #e52ee5;
+}
+
+.red {
+  color: #ff4060;
+}
+
 .primary_btn {
   color: #E52EE5;
   font-size: 18px;
   border: 1px solid #E52EE5;
-  border-radius: 4px;
   padding: 0.6rem 2rem 0.6rem 2rem;
+  border-radius: 0px;
 }
 
 .primary_btn:hover {
   background-color: #E52EE5;
   color: black;
+}
+
+.primary_btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 @media (min-width: 320px) {
@@ -259,7 +285,7 @@ a:hover {
 
 #about {
   background-color: black;
-  padding: 6rem 0rem 12rem 0rem;
+  padding: 6rem 0rem 6rem 0rem;
   /* SKILLS */
 }
 
@@ -404,18 +430,8 @@ a:hover {
 }
 
 #works {
-  padding: 6rem 0rem 12rem 0rem;
-}
-
-#works ::-moz-selection {
-  /* Code for Firefox */
-  color: black;
-  background: #E52EE5;
-}
-
-#works ::selection {
-  color: black;
-  background: #E52EE5;
+  padding: 6rem 0rem 4rem 0rem;
+  /* Animaciones */
 }
 
 #works h2 {
@@ -424,28 +440,151 @@ a:hover {
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 5rem;
 }
 
 #works .card {
   background-color: black;
+  border: 1px solid white;
+  border-radius: 0px;
 }
 
-#works .card img {
-  width: 100%;
-  height: auto;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+#works .card .card-body p {
+  margin-top: 1rem;
+  color: white;
+  font-size: 18px;
 }
 
-#works .card:hover img {
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+#works .card .card-footer {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
 }
 
-#works p {
-  font-size: 16px;
-  color: #ccd6f6;
-  line-height: 184.69%;
+#works .card-1 ::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #00e599;
+}
+
+#works .card-1 ::selection {
+  color: black;
+  background: #00e599;
+}
+
+#works .card-2 ::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #ffd333;
+}
+
+#works .card-2 ::selection {
+  color: black;
+  background: #ffd333;
+}
+
+#works .card-3 ::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #ff7e44;
+}
+
+#works .card-3 ::selection {
+  color: black;
+  background: #ff7e44;
+}
+
+#works .card-4 ::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #e52ee5;
+}
+
+#works .card-4 ::selection {
+  color: black;
+  background: #e52ee5;
+}
+
+#works .card-5 ::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #ff4060;
+}
+
+#works .card-5 ::selection {
+  color: black;
+  background: #ff4060;
+}
+
+#works ul {
+  padding: 0px;
+}
+
+#works ul a {
+  text-decoration: none;
+}
+
+#works ul a:hover {
+  color: #e52ee5;
+}
+
+#works ul li {
+  display: inline;
+  font-size: 18px;
+}
+
+#works .tag {
+  color: #8892b0;
+  font-size: 15px;
+}
+
+#works .hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+#works .hvr-float:hover,
+#works .hvr-float:focus,
+#works .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+#contact {
+  padding: 12rem 0rem 10rem 0rem;
+}
+
+#contact ::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #00e599;
+}
+
+#contact ::selection {
+  color: black;
+  background: #00e599;
+}
+
+#contact h2 {
+  background-color: #00e599;
+  background-image: linear-gradient(45deg, #00e599, #ffffff);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #contact p {

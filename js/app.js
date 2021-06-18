@@ -7,6 +7,7 @@ $(window).scroll(function (event) {
     } else {
         $('.btn-resume').removeClass('btn-resume2'); // remove the class
     }
+
 });
 
 //trigger the scroll
