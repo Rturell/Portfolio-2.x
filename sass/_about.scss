@@ -6,16 +6,16 @@
     ::-moz-selection {
         /* Code for Firefox */
         color: black;
-        background: $aboutSection;
+        background: $green;
     }
 
     ::selection {
         color: black;
-        background: $aboutSection;
+        background: $green;
     }
 
     h2 {
-        background-color: $aboutSection;
+        background-color: $green;
         background-image: linear-gradient(45deg, #00e599, #ffffff);
         background-size: 100%;
         background-repeat: repeat;
@@ -33,7 +33,7 @@
 
         a {
             font-size: 16px;
-            color: $aboutSection;
+            color: $green;
             text-decoration: none;
         }
 
@@ -44,19 +44,6 @@
         }
     }
 
-    .about_btn {
-        color: $aboutSection;
-        font-size: 18px;
-        border: 1px solid $aboutSection;
-        border-radius: 4px;
-        padding: 0.6rem 2rem 0.6rem 2rem;
-    }
-
-    .about_btn:hover {
-        background-color: $aboutSection;
-        color: black;
-        font-weight: 500;
-    }
 
     /* SKILLS */
 

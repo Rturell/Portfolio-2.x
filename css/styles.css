@@ -327,20 +327,6 @@ a:hover {
   line-height: 184.69%;
 }
 
-#about .about_btn {
-  color: #00e599;
-  font-size: 18px;
-  border: 1px solid #00e599;
-  border-radius: 4px;
-  padding: 0.6rem 2rem 0.6rem 2rem;
-}
-
-#about .about_btn:hover {
-  background-color: #00e599;
-  color: black;
-  font-weight: 500;
-}
-
 #about .skills_box {
   background-color: black;
   color: #ccd6f6;
