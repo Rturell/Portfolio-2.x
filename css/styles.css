@@ -68,7 +68,7 @@ h4 {
   color: #E52EE5;
   font-size: 18px;
   border: 1px solid #E52EE5;
-  padding: 0.6rem 2rem 0.6rem 2rem;
+  padding: 0.6rem 2rem 0rem 2rem;
   border-radius: 0px;
 }
 
@@ -430,7 +430,7 @@ a:hover {
 }
 
 #works {
-  padding: 6rem 0rem 4rem 0rem;
+  padding: 6rem 0rem 6rem 0rem;
   /* Animaciones */
 }
 
@@ -459,6 +459,11 @@ a:hover {
   padding: 0px;
   border: none;
   background-color: transparent;
+}
+
+#works .card .card-footer .tag {
+  color: #8892b0;
+  font-size: 16px;
 }
 
 #works .card-1 ::-moz-selection {
@@ -530,12 +535,7 @@ a:hover {
 
 #works ul li {
   display: inline;
-  font-size: 18px;
-}
-
-#works .tag {
-  color: #8892b0;
-  font-size: 15px;
+  font-size: 16 px;
 }
 
 #works .hvr-float {
@@ -564,7 +564,7 @@ a:hover {
 }
 
 #contact {
-  padding: 12rem 0rem 10rem 0rem;
+  padding: 6rem 0rem 10rem 0rem;
 }
 
 #contact ::-moz-selection {
@@ -591,5 +591,26 @@ a:hover {
   font-size: 16px;
   color: #ccd6f6;
   line-height: 184.69%;
+}
+
+#contact a:hover {
+  color: #00e599;
+}
+
+#contact .primary_btn {
+  color: #00e599;
+  font-size: 18px;
+  border: 1px solid #00e599;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  border-radius: 0px;
+}
+
+#contact .primary_btn:hover {
+  color: black;
+  background-color: #00e599;
+  font-size: 18px;
+  border: 1px solid #00e599;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  border-radius: 0px;
 }
 /*# sourceMappingURL=styles.css.map */

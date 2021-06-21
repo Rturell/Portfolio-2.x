@@ -1,6 +1,6 @@
 #contact {
 
-    padding: 12rem 0rem 10rem 0rem;
+    padding: 6rem 0rem 10rem 0rem;
 
 
     ::-moz-selection {
@@ -29,4 +29,27 @@
         color: $primaryColor;
         line-height: 184.69%;
     }
+
+
+    a:hover {
+        color: $green;
+    }
+
+    .primary_btn {
+        color: $green;
+        font-size: 18px;
+        border: 1px solid $green;
+        padding: 0.6rem 2rem 0.6rem 2rem;
+        border-radius: 0px;
+    }
+
+    .primary_btn:hover {
+        color: black;
+        background-color: $green;
+        font-size: 18px;
+        border: 1px solid $green;
+        padding: 0.6rem 2rem 0.6rem 2rem;
+        border-radius: 0px;
+    }
+
 }
