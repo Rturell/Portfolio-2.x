@@ -12,3 +12,9 @@ $(window).scroll(function (event) {
 
 //trigger the scroll
 $(window).scroll(); //ensure if you're in current position when page is refreshed
+
+$(function () { 
+    $(".toggle").click(function () {
+        $(".fas").toggleClass("js-close"); 
+    });
+});

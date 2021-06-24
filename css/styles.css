@@ -309,16 +309,36 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+#about .about_text p {
+  font-size: 16px;
+  color: #ccd6f6;
+  line-height: 184.69%;
+}
+
 #about .about_text a {
   font-size: 16px;
   color: #00e599;
   text-decoration: none;
 }
 
-#about .about_text p {
-  font-size: 16px;
-  color: #ccd6f6;
-  line-height: 184.69%;
+#about .about_text a p {
+  color: #00e599;
+}
+
+#about .about_text .fas {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+#about .about_text .js-close {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
 #about .skills_box {

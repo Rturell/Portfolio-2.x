@@ -25,17 +25,33 @@
 
     .about_text {
 
-        a {
-            font-size: 16px;
-            color: $green;
-            text-decoration: none;
-        }
-
         p {
             font-size: 16px;
             color: $primaryColor;
             line-height: 184.69%;
         }
+
+        a {
+            font-size: 16px;
+            color: $green;
+            text-decoration: none;
+
+            p {
+                color: $green;
+            }
+
+        }
+
+        .fas {
+            transition: transform .3s ease-in-out;
+        }
+
+        .js-close {
+            transform: rotate(180deg);
+            transition: transform .3s ease-in-out;
+        }
+
+
     }
 
 
