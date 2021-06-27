@@ -24,6 +24,9 @@
         border: $homeSection solid 1px;
         border-radius: 0px;
         border-radius: 0px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
 
     .btn-resume:focus {

@@ -153,6 +153,9 @@ h4 {
   border: #E52EE5 solid 1px;
   border-radius: 0px;
   border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .navbar-mio .btn-resume:focus {
