@@ -259,8 +259,10 @@ a:hover {
 }
 
 #about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
   background-color: black;
-  padding: 6rem 0rem 6rem 0rem;
   /* SKILLS */
 }
 #about ::-moz-selection {
@@ -299,6 +301,11 @@ a:hover {
 #about .about_text .js-close {
   transform: rotate(180deg);
   transition: transform 0.3s ease-in-out;
+}
+#about .about_text .about-links {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 #about .skills_box {
   background-color: black;
@@ -377,7 +384,9 @@ a:hover {
 }
 
 #works {
-  padding: 6rem 0rem 6rem 0rem;
+  display: flex;
+  align-items: center;
+  height: 100vh;
   /* Animaciones */
 }
 #works h2 {

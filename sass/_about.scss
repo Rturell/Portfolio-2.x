@@ -1,7 +1,9 @@
 #about {
 
+    display: flex;
+    align-items: center;
+    height: 100vh;
     background-color: black;
-    padding: 6rem 0rem 6rem 0rem;
 
     ::-moz-selection {
         /* Code for Firefox */
@@ -49,6 +51,12 @@
         .js-close {
             transform: rotate(180deg);
             transition: transform .3s ease-in-out;
+        }
+
+        .about-links {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
         }
 
 
